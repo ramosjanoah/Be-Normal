@@ -1,8 +1,10 @@
 # Be-Normal Dataset!
 
-Author : 
+### Author
 - Ramos Janoah (Email: ramosj.noah@gmail.com | [IG](https://www.instagram.com/ramosjanoah/))
-- Alson Cahywadi (Email: alson.cahyadi@bukalapak.com | [IG](https://www.instagram.com/alson.cahyadi/)
+- Alson Cahyadi (Email: alson.cahyadi@bukalapak.com | [IG](https://www.instagram.com/alson.cahyadi/))
+
+## About
 
 Be-Normal dataset is an Indonesian word normalizer dataset, collected from:
 - Twitter, (15M collected, 1500 tweet picked, 200 normalized)
@@ -12,18 +14,18 @@ This data form in pair of text, raw text and normalized text. I'm targetting to 
 
 You can use this dataset by contact me first using email: ramosj.noah@gmail.com. I'm an active user so i'll give response at least 24 after you send me the email.
 
-## Index
+### Index
 - [Package used](#package)
 - [Few notes for this project](#notes)
 - [Normalization Rule](#normalization-rule)
 - [Example](#example)
 - [README: Twitter](twitter/README.md)
 
-## Package
+### Package
 Package i used for this project:
 - Tokenizer, from NLTK. Especially TweetTokenizer for tokenizing tweet.
 
-## Notes
+### Notes
 Notes for this dataset:
 1. Tweet is collected on 2018, from random users.
 2. YouTube comments is collected on 2018 from these video (the parenthesis is the comment retrieved from the video):
@@ -43,7 +45,7 @@ Notes for this dataset:
 	- https://youtu.be/hAzxl--j3oI - Kenapa Ahok Kalah?
 	- https://youtu.be/fg72DS56lwE - SKINNYINDONESIAN24 - INDOMIE, MIE DARI INDONESIA (LAGU INDOMIE)
 
-## Normalization Rule
+### Normalization Rule
 Rule for this normalization:
 1. The normalization fix this kind of unnormalized form:
 	- Typo or Misspell word (lack or overuse the character)
@@ -71,7 +73,7 @@ _Saya ngga bisa membalas pesan anda_ -> _Saya tidak bisa membalas pesan anda_ (f
 9. This dataset is not correcting the case if the sentence should using the punctuation but it's not.
 10. The unclear and unknown word are not normalized. 
 
-## Example
+### Example
 Example of the data:
 
 ```
