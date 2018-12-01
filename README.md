@@ -1,5 +1,9 @@
 # Be-Normal Dataset!
 
+Author : 
+- Ramos Janoah (Email: ramosj.noah@gmail.com | [IG](https://www.instagram.com/ramosjanoah/))
+- Alson Cahywadi (Email: alson.cahyadi@bukalapak.com | [IG](https://www.instagram.com/alson.cahyadi/)
+
 Be-Normal dataset is an Indonesian word normalizer dataset, collected from:
 - Twitter, (15M collected, 1500 tweet picked, 200 normalized)
 - YouTube comments (Comments collected from 10 videos, 0 picked, 0 normalized)
